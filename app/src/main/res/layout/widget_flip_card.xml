@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The switch is local to this row. Its checked state puts the back above the front. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="1200dp"
+    android:minHeight="1200dp">
+
+    <FrameLayout
+        android:id="@+id/widget_flip_front_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:addStatesFromChildren="true"
+        android:stateListAnimator="@animator/widget_card_face"
+        android:translationZ="1px">
+
+        <FrameLayout
+            android:id="@+id/widget_flip_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="noHideDescendants" />
+
+        <Switch
+            android:id="@+id/widget_flip_control"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:checked="false"
+            android:showText="false"
+            android:thumb="@null"
+            android:track="@null" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/widget_flip_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="noHideDescendants" />
+</FrameLayout>

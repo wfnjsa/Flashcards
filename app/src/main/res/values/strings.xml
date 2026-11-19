@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Flashcards</string>
+    <string name="menu_main">Main menu</string>
+    <string name="menu_close">Close main menu</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_option">Language · %1$s</string>
+    <string name="back_to_decks">Back to decks</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="merge">Merge</string>
+    <string name="continue_label">Continue</string>
+    <string name="deck_actions">Deck actions</string>
+    <string name="deck_selection_done">Exit deck selection</string>
+    <string name="deck_add_button">＋ Add deck</string>
+    <string name="decks_empty_title">No decks yet</string>
+    <string name="decks_empty_description">Add a deck to start creating flashcards.</string>
+    <string name="deck_review_description">Review “%1$s”</string>
+    <string name="deck_open_description">Open deck “%1$s”</string>
+    <string name="deck_selected_description">Deck “%1$s” selected</string>
+    <string name="deck_unselected_description">Deck “%1$s” unselected</string>
+    <string name="deck_field">Deck</string>
+    <string name="deck_add">Add deck</string>
+    <string name="deck_edit">Edit deck</string>
+    <string name="deck_name">Deck name</string>
+    <string name="deck_name_hint">e.g. Engineering English</string>
+    <string name="deck_name_required">Enter a deck name</string>
+    <string name="deck_name_duplicate">A deck with this name already exists</string>
+    <string name="deck_voice_language">Pronunciation language</string>
+    <string name="deck_delete_name">“%1$s”</string>
+    <string name="deck_delete_selection">the %1$d selected decks</string>
+    <string name="deck_delete_confirm">Delete %1$s? All flashcards inside (%2$d) will also be deleted.</string>
+    <string name="deck_merge_choose">Choose the deck to keep</string>
+    <string name="deck_merge_title">Merge into “%1$s”</string>
+    <string name="deck_merge_description">Flashcards and review progress from the other decks will move here. The merged deck uses the chosen name and pronunciation language.</string>
+    <string name="deck_selection_changed">The decks have changed. Select them again.</string>
+    <string name="card_add_button">＋ Add flashcard</string>
+    <string name="card_add">Add flashcard</string>
+    <string name="card_edit">Edit flashcard</string>
+    <string name="card_search">Search words or meanings</string>
+    <string name="cards_empty">This deck has no flashcards yet</string>
+    <string name="cards_no_matches">No matching flashcards</string>
+    <string name="card_term">Word</string>
+    <string name="card_term_hint">e.g. durability</string>
+    <string name="card_term_required">Enter a word</string>
+    <string name="card_reading_optional">Reading (optional)</string>
+    <string name="card_reading_hint">e.g. /ˈæpəl/ or りんご</string>
+    <string name="card_meaning">Meaning</string>
+    <string name="card_meaning_hint">e.g. the ability to last</string>
+    <string name="card_meaning_required">Enter a meaning</string>
+    <string name="card_example_optional">Example (optional)</string>
+    <string name="card_example_hint">Example sentence or notes</string>
+    <string name="select_all">Select all</string>
+    <string name="card_actions">Flashcard actions</string>
+    <string name="card_selection_done">Exit flashcard selection</string>
+    <string name="card_move">Move</string>
+    <string name="card_copy">Copy</string>
+    <string name="card_move_destination">Move to deck</string>
+    <string name="card_copy_destination">Copy to deck</string>
+    <string name="card_move_no_destination">Create another deck to move flashcards into.</string>
+    <string name="card_selection_changed">The flashcards or deck changed. Select them again.</string>
+    <string name="example_label">Example:</string>
+    <string name="review_mode_title">Review mode</string>
+    <string name="review_flashcards">Flashcard mode</string>
+    <string name="review_paired">Paired cards</string>
+    <string name="review_quiz">Quick quiz</string>
+    <string name="quiz_empty">Add a flashcard with a word and meaning to start the quiz.</string>
+    <string name="quiz_progress">Question %1$d of %2$d</string>
+    <string name="quiz_choose_term">Choose the matching word</string>
+    <string name="quiz_choose_meaning">Choose the matching meaning</string>
+    <string name="quiz_correct">Correct</string>
+    <string name="quiz_incorrect">Incorrect</string>
+    <string name="quiz_next">Next question</string>
+    <string name="quiz_show_result">See results</string>
+    <string name="quiz_score">Score %1$d / %2$d</string>
+    <string name="quiz_retry">Try another quiz</string>
+    <string name="review_due">Due for review</string>
+    <string name="review_all">Study all</string>
+    <string name="review_progress">%1$d / %2$d</string>
+    <string name="review_progress_with_count">%1$s · Reviewed: %2$d</string>
+    <string name="review_none_due">No flashcards are due</string>
+    <string name="review_complete">Review complete</string>
+    <string name="review_restart">Study again</string>
+    <string name="review_refresh_due">Check for due cards</string>
+    <string name="review_show_word">Show word</string>
+    <string name="review_show_meaning">Show meaning</string>
+    <string name="review_previous">Previous</string>
+    <string name="review_next">Next</string>
+    <string name="review_speak">Pronounce</string>
+    <string name="review_again">Still learning</string>
+    <string name="review_remembered">Remembered</string>
+    <string name="voice_packs_title">Voice packs</string>
+    <string name="voice_packs_back">Back to settings</string>
+    <string name="voice_packs_open_system">Open system voice settings</string>
+    <string name="voice_packs_loading">Checking for voices…</string>
+    <string name="voice_packs_empty">The current text-to-speech engine reported no voices. Check your system voice settings.</string>
+    <string name="voice_packs_settings_unavailable">Open your phone settings and search for text-to-speech.</string>
+    <string name="voice_pack_installed">Downloaded</string>
+    <string name="voice_pack_missing">Not downloaded</string>
+    <string name="voice_pack_online_only">Online only</string>
+    <string name="voice_pack_not_available">Unavailable on this device</string>
+    <string name="voice_pack_checking">Checking availability</string>
+    <string name="voice_pack_requested">Download requested</string>
+    <string name="voice_pack_download">Download</string>
+    <string name="voice_pack_remove">Delete…</string>
+    <string name="voice_pack_remove_title">Delete voice for %1$s</string>
+    <string name="voice_pack_remove_in_settings">In your text-to-speech engine’s voice data settings, find %1$s and use the delete option if available. Return here to check the status.</string>
+    <string name="voice_pack_choice_description">%1$s, %2$s</string>
+    <string name="voice_unavailable">Install a voice for this language in your phone’s text-to-speech settings.</string>
+    <string name="widget_title">Home screen widget</string>
+    <string name="widget_name">Swipeable flashcards</string>
+    <string name="widget_description">Swipe up or down to change cards. Tap to reveal the meaning.</string>
+    <string name="widget_all_decks">All decks</string>
+    <string name="widget_deck_menu_description">Choose decks to show. Current selection: %1$s</string>
+    <string name="widget_deck_picker_title">Decks on the home screen</string>
+    <string name="widget_next_batch">Batch %1$d/%2$d ›</string>
+    <string name="widget_open">Open</string>
+    <string name="widget_swipe">Swipe up or down</string>
+    <string name="widget_tap_to_reveal">Tap to reveal</string>
+    <string name="widget_empty">Tap to add a flashcard</string>
+    <string name="widget_preview_empty">No flashcards yet</string>
+    <string name="widget_source">Decks to show</string>
+    <string name="widget_pin">Add to home screen</string>
+    <string name="widget_pin_unavailable">Add the flashcard widget from your home screen’s Widgets menu.</string>
+    <string name="widget_add_manually">You can also touch and hold an empty area of the home screen to add it from Widgets.</string>
+    <string name="widget_answer_with_example">%1$s. %2$s</string>
+    <string name="excel_import">Import Excel</string>
+    <string name="excel_export">Export Excel</string>
+    <string name="excel_picker_unavailable">No file picker is available on this device.</string>
+    <string name="excel_importing">Importing Excel…</string>
+    <string name="excel_exporting">Exporting Excel…</string>
+    <string name="excel_import_failed">Could not import Excel. Check that the file can be opened.</string>
+    <string name="excel_export_failed">Could not export Excel. Check that you can write to the selected location.</string>
+    <string name="excel_imported">Flashcards imported: %1$d</string>
+    <string name="excel_exported">Flashcards exported: %1$d</string>
+    <string name="excel_export_deck_missing">The selected deck could not be found.</string>
+    <string name="excel_import_deck_name">Imported deck</string>
+    <string name="excel_unreadable">Could not read this file. Choose a valid .xlsx workbook.</string>
+    <string name="excel_too_large">This Excel file is too large. Split it into smaller workbooks before importing.</string>
+    <string name="excel_headers_required">The first sheet needs “Word” and “Meaning” column headers.</string>
+    <string name="excel_row_headers_required">Row %1$d needs “Word” and “Meaning” column headers.</string>
+    <string name="excel_row_card_incomplete">Row %1$d is missing a word or meaning.</string>
+    <string name="excel_row_text_too_long">The text in row %1$d is too long.</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_traditional_chinese" translatable="false">繁體中文</string>
+    <string name="language_japanese" translatable="false">日本語</string>
+    <string name="language_french" translatable="false">Français</string>
+    <string name="language_spanish" translatable="false">Español</string>
+    <string name="language_portuguese" translatable="false">Português</string>
+    <string name="language_russian" translatable="false">Русский</string>
+    <string name="language_german" translatable="false">Deutsch</string>
+    <string name="language_arabic" translatable="false">العربية</string>
+    <string name="widget_deck_menu" translatable="false">%1$s ▾</string>
+    <string name="widget_preview_term" translatable="false">durability</string>
+
+    <plurals name="decks_selected">
+        <item quantity="one">%1$d deck selected</item>
+        <item quantity="other">%1$d decks selected</item>
+    </plurals>
+
+    <plurals name="deck_card_count">
+        <item quantity="one">%1$d flashcard</item>
+        <item quantity="other">%1$d flashcards</item>
+    </plurals>
+
+    <plurals name="cards_selected">
+        <item quantity="one">%1$d flashcard selected</item>
+        <item quantity="other">%1$d flashcards selected</item>
+    </plurals>
+    <plurals name="cards_delete">
+        <item quantity="one">Delete %1$d flashcard?</item>
+        <item quantity="other">Delete %1$d flashcards?</item>
+    </plurals>
+    <plurals name="cards_moved">
+        <item quantity="one">Moved %1$d flashcard to “%2$s”.</item>
+        <item quantity="other">Moved %1$d flashcards to “%2$s”.</item>
+    </plurals>
+    <plurals name="cards_copied">
+        <item quantity="one">Copied %1$d flashcard to “%2$s”.</item>
+        <item quantity="other">Copied %1$d flashcards to “%2$s”.</item>
+    </plurals>
+</resources>
